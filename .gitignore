@@ -9,8 +9,6 @@ mas-build-output/
 # regression test (tests/upgrade-path.test.ts, specs/DatabaseMigrations.md).
 !tests/fixtures/upgrade-snapshots/*.db
 backups/
-.env
-.env.local
 .env.*.local
 .DS_Store
 .claude/
@@ -44,3 +42,4 @@ code-review/
 
 # Private shared docs repo — cloned in by hand, never tracked here (see AGENTS.md)
 specs/
+config.bat

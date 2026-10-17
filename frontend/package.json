@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build --webpack",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build --webpack",
+    "start": "node init && next start",
     "lint": "eslint",
     "test:e2e": "playwright test --config=playwright.config.ts --project=chromium",
     "test:e2e:electron": "playwright test --config=playwright.electron.config.ts --project=electron-desktop"
